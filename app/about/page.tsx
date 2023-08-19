@@ -26,7 +26,7 @@ export default function Home() {
           Our <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-400 to-red-500 text-white rounded-3xl shadow-lg shadow-rose-200 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Team</span>
         </h1>
         <h1 className="max-md:text-lg md:text-xl font-bold mt-5 text-rose-500 text-center md:mx-48 max-md:mx-20 z-10">
-          Who we are, how we started, and what we've done.
+          Who we are, how we started, and what we&apos;ve done.
         </h1>
       </div>
       <div className="bg-[#a51537] min-h-fit">
@@ -41,7 +41,7 @@ export default function Home() {
         </h1>
           <div className="flex flex-row flex-wrap justify-center mx-auto mt-6 gap-6">
             {/** <Card name="Sharabh Ojha" role="Founder, President, and Music Director" image="sharabh.jpg" />
-          <Card name="Xhaiden D'Souza" role="Vice President and Music Director" image="xhaiden.jpg" />
+          <Card name="Xhaiden D&apos;Souza" role="Vice President and Music Director" image="xhaiden.jpg" />
           <Card name="Bernice Zhao" role="Vice President and Music Director" image="bernice.jpg" />
           <Card name="Keith Miquela" role="Vice President and Music Director" image="keith.jpg" />
           <Card name="Alex Wang" role="Vice President and Music Director" image="alex.jpg" />

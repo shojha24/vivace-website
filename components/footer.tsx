@@ -13,7 +13,7 @@ export function Footer() {
     return (
         <div className="w-screen grid grid-cols-2 grid-rows-1 max-md:grid-rows-2 border border-rose-100">
             {/** I want to have one section dedicated to a description, like "Made with ❤ by Sharabh Ojha." That same section should also have a contact us button and a go back to the top button
-             * the second section should have the names of the people in our team: Sharabh Ojha, Xhaiden D'Souza, Bernice Zhao, Keith Miquela, Alex Wang, Arhan Nagavelli, Ishaan Akula, and Lauren Fleming
+             * the second section should have the names of the people in our team: Sharabh Ojha, Xhaiden D&apos;Souza, Bernice Zhao, Keith Miquela, Alex Wang, Arhan Nagavelli, Ishaan Akula, and Lauren Fleming
              * The third section should just say (c) 2023 VIVACEmusic
              * The last section should be icons that are links to social media, i.e. instagram and youtube.
             */}
@@ -48,7 +48,7 @@ export function Footer() {
                     </h1>
                     <h3 className="text-rose-600">
                         <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@sharabhojha7895" passHref>Sharabh Ojha</Link>
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@xhaidendsouza7380" passHref>Xhaiden D'Souza</Link>
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@xhaidendsouza7380" passHref>Xhaiden D&apos;Souza</Link>
                         <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/bernicez21/" passHref>Bernice Zhao</Link>
                         <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/keithmiquela/" passHref>Keith Miquela</Link>
                         <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/alexwangg_/" passHref>Alex Wang</Link>
