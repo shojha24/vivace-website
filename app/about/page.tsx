@@ -163,7 +163,7 @@ export default function Home() {
           </div>
         </div>
 
-        <h1 className="w-fit mx-auto my-6 outline-dashed outline-4 outline-rose-600 text-xl p-4 text-center font-semibold text-rose-500 bg-gradient-to-b from-rose-100 to-red-200 rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">Individually, we've performed at:</h1>
+        <h1 className="w-fit mx-auto my-6 outline-dashed outline-4 outline-rose-600 text-xl p-4 text-center font-semibold text-rose-500 bg-gradient-to-b from-rose-100 to-red-200 rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">Individually, we&apos;ve performed at:</h1>
 
         <div className="flex flex-row flex-wrap justify-center mx-auto mt-6 pb-6 gap-6">
           <div className="max-w-[500px]">
