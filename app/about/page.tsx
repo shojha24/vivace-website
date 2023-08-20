@@ -23,7 +23,7 @@ export default function Home() {
           <Lightbulb size={384} color="#fecdd3" strokeWidth={2.25} className="absolute top-4 rotate-45 blur-md" />
         </div>
         <h1 className="px-5 max-sm:text-4xl sm:text-6xl font-bold mt-10 text-rose-400 text-center z-10">
-          Our <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-400 to-red-500 text-white rounded-3xl shadow-lg shadow-rose-200 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Team</span>
+          About Our <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-400 to-red-500 text-white rounded-3xl shadow-lg shadow-rose-200 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Team</span>
         </h1>
         <h1 className="max-md:text-lg md:text-xl font-bold mt-5 text-rose-500 text-center md:mx-48 max-md:mx-20 z-10">
           Who we are, how we started, and what we&apos;ve done.
@@ -39,7 +39,7 @@ export default function Home() {
         <h1 className="text-white max-sm:text-3xl sm:text-4xl font-bold text-center z-10">
           <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-50 to-red-100 text-rose-500 rounded-3xl shadow-lg shadow-rose-800 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Our Team</span>
         </h1>
-          <div className="flex flex-row flex-wrap justify-center mx-auto mt-6 gap-6">
+          <div className="flex flex-row flex-wrap justify-center mx-6 mt-6 mb-24 gap-6">
             {/** <Card name="Sharabh Ojha" role="Founder, President, and Music Director" image="sharabh.jpg" />
           <Card name="Xhaiden D&apos;Souza" role="Vice President and Music Director" image="xhaiden.jpg" />
           <Card name="Bernice Zhao" role="Vice President and Music Director" image="bernice.jpg" />
@@ -145,6 +145,35 @@ export default function Home() {
               </CardFooter>
             </Card>
         </div>
+
+        <h1 className="text-white max-sm:text-3xl sm:text-4xl font-bold text-center z-10">
+          <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-50 to-red-100 text-rose-500 rounded-3xl shadow-lg shadow-rose-800 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Where we&apos;ve been</span>
+        </h1>
+        <h1 className="w-fit mx-auto my-6 outline-dashed outline-4 outline-rose-600 text-xl p-4 text-center font-semibold text-rose-500 bg-gradient-to-b from-rose-100 to-red-200 rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">As a group or ensemble, we&apos;ve performed at:</h1>
+
+        <div className="flex flex-row flex-wrap justify-center mx-auto mt-6 mb-6 gap-6">
+          <div className="max-w-[375px]">
+            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+          </div>
+          <div className="max-w-[375px]">
+            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+          </div>
+          <div className="max-w-[375px]">
+            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+          </div>
+        </div>
+
+        <h1 className="w-fit mx-auto my-6 outline-dashed outline-4 outline-rose-600 text-xl p-4 text-center font-semibold text-rose-500 bg-gradient-to-b from-rose-100 to-red-200 rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">Individually, we've performed at:</h1>
+
+        <div className="flex flex-row flex-wrap justify-center mx-auto mt-6 pb-6 gap-6">
+          <div className="max-w-[500px]">
+            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+          </div>
+          <div className="max-w-[500px]">
+            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+          </div>
+        </div>
+
       </div>
 
     </main>
