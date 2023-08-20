@@ -51,7 +51,7 @@ export default function Home() {
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
                 <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Website Developer, and <strong>Tenor</strong></CardDescription>
+                <CardDescription className="text-rose-800">Founder, Director, Website Developer, and <strong>Tenor/Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
@@ -62,86 +62,86 @@ export default function Home() {
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Developer, and <strong>Tenor</strong></CardDescription>
+                <CardTitle className="text-rose-700">Xhaiden D&apos;Souza</CardTitle>
+                <CardDescription className="text-rose-800">Arrangement Director, Beatboxing Hopeful, and <strong>Tenor/Alto</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Xhaiden loves ice cream, long walks on the beach, and dogs.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Developer, and <strong>Tenor</strong></CardDescription>
+                <CardTitle className="text-rose-700">Bernice Zhao</CardTitle>
+                <CardDescription className="text-rose-800">Co-Vocal Director and <strong>Alto/Soprano</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Bernice loves ice cream, long walks on the beach, and dogs.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Developer, and <strong>Tenor</strong></CardDescription>
+                <CardTitle className="text-rose-700">Keith Miquela</CardTitle>
+                <CardDescription className="text-rose-800">Co-Vocal Director and <strong>Bass/Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Keith loves ice cream, long walks on the beach, and dogs.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Developer, and <strong>Tenor</strong></CardDescription>
+                <CardTitle className="text-rose-700">Arhan Nagavelli</CardTitle>
+                <CardDescription className="text-rose-800">Guitarist and <strong>Tenor/Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Arhan loves ice cream, long walks on the beach, and dogs.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Developer, and <strong>Tenor</strong></CardDescription>
+                <CardTitle className="text-rose-700">Alex Wang</CardTitle>
+                <CardDescription className="text-rose-800"><strong>Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Alex loves ice cream, long walks on the beach, and dogs.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Developer, and <strong>Tenor</strong></CardDescription>
+                <CardTitle className="text-rose-700">Ishaan Akula</CardTitle>
+                <CardDescription className="text-rose-800"><strong>Tenor/Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Ishaan loves ice cream, long walks on the beach, and dogs.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Developer, and <strong>Tenor</strong></CardDescription>
+                <CardTitle className="text-rose-700">Lauren Fleming</CardTitle>
+                <CardDescription className="text-rose-800"><strong>Alto</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Lauren loves ice cream, long walks on the beach, and dogs.</h1>
               </CardFooter>
             </Card>
         </div>
@@ -156,13 +156,13 @@ export default function Home() {
 
         <div className="flex flex-row flex-wrap justify-center mx-6 mt-6 mb-6 gap-6">
           <div className="max-w-[375px] shadow-lg shadow-rose-200">
-            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+            <Image src={require("../assets/hths_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
           </div>
           <div className="max-w-[375px] shadow-lg shadow-rose-200">
-            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+            <Image src={require("../assets/hawkswood_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
           </div>
           <div className="max-w-[375px] shadow-lg shadow-rose-200">
-            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+            <Image src={require("../assets/careone_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
           </div>
         </div>
 
@@ -170,10 +170,10 @@ export default function Home() {
 
         <div className="flex flex-row flex-wrap justify-center mx-6 mt-6 pb-20 gap-6">
           <div className="max-w-[500px] shadow-lg shadow-rose-200">
-            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+            <Image src={require("../assets/stonepony_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
           </div>
           <div className="max-w-[500px] shadow-lg shadow-rose-200">
-            <Image src={require("../assets/sharabh.jpg")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+            <Image src={require("../assets/bitterend_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
           </div>
         </div>
 

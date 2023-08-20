@@ -23,23 +23,23 @@ export default function Home() {
       <div className="bg-[#a51537] min-h-fit">
         <div className="grid mx-10 gap-8 grid-cols-3 grid-rows-3 max-md:grid-rows-6">
 
-          <div className="outline-dashed outline-4 outline-rose-600 md:col-span-2 max-md:col-span-3 row-span-1 rounded-xl bg-[url('assets/sharabh.jpg')] bg-cover bg-center shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
+          <div className="outline-dashed outline-4 outline-rose-600 md:col-span-2 max-md:col-span-3 row-span-1 rounded-xl bg-[url('assets/jinglebellrock.png')] bg-cover bg-center shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
             <h1 className="text-transparent p-32">H</h1>
           </div>
 
+          <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 md:row-span-2 max-md:row-span-1 bg-[url('assets/me_at_stone_pony.png')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
+          </div>
+
+          <div className="md:col-span-1 max-md:col-span-3 row-span-1 bg-[url('assets/guitar.svg')] bg-contain bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
+          </div>
+
           <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 md:row-span-2 max-md:row-span-1 bg-[url('assets/sharabh.jpg')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
           </div>
 
           <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 row-span-1 bg-[url('assets/sharabh.jpg')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
           </div>
 
-          <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 md:row-span-2 max-md:row-span-1 bg-[url('assets/sharabh.jpg')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
-          </div>
-
-          <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 row-span-1 bg-[url('assets/sharabh.jpg')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
-          </div>
-
-          <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 row-span-1 bg-[url('assets/sharabh.jpg')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
+          <div className="md:col-span-1 max-md:col-span-3 row-span-1 bg-[url('assets/piano.svg')] bg-contain bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
           </div>
 
 
