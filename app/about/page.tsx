@@ -51,7 +51,7 @@ export default function Home() {
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
                 <CardTitle className="text-rose-700">Sharabh Ojha</CardTitle>
-                <CardDescription className="text-rose-800">Founder, Director, Developer, and <strong>Tenor</strong></CardDescription>
+                <CardDescription className="text-rose-800">Founder, Director, Website Developer, and <strong>Tenor</strong></CardDescription>
               </CardHeader>
               <CardContent>
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
