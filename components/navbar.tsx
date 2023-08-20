@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils"
 
 export function Navbar() {
     return (
-        <div className="outline outline-rose-100 p-3 flex flex-row flex-wrap justify-between z-10">
+        <div className="border-rose-100 border-b-2 p-3 flex flex-row flex-wrap justify-between z-10">
             <Link href="/" legacyBehavior passHref>
                 <div id="Logo" className="flex cursor-pointer hover:brightness-90 justify-start pl-3">
                     <Image src={require("../app/assets/vivace_logo.svg")} width="25" height="30" alt="IDFK"></Image>

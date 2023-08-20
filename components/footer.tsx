@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils"
 
 export function Footer() {
     return (
-        <div className="w-screen grid grid-cols-2 grid-rows-1 max-md:grid-rows-2 border border-rose-100">
+        <div className="grid grid-cols-2 grid-rows-1 max-md:grid-rows-2 border-rose-100 border-t-2">
             {/** I want to have one section dedicated to a description, like "Made with ❤ by Sharabh Ojha." That same section should also have a contact us button and a go back to the top button
              * the second section should have the names of the people in our team: Sharabh Ojha, Xhaiden D&apos;Souza, Bernice Zhao, Keith Miquela, Alex Wang, Arhan Nagavelli, Ishaan Akula, and Lauren Fleming
              * The third section should just say (c) 2023 VIVACEmusic
@@ -38,8 +38,8 @@ export function Footer() {
                     Pages
                 </h1>
                 <h3 className="text-rose-600">
-                    <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/" passHref>Home</Link> | 
-                    <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/about" passHref>About Us</Link> | 
+                    <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/" passHref>Home</Link> 
+                    <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/about" passHref>About Us</Link> 
                     <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/shows" passHref>Shows</Link>
                 </h3>
                 <div className="max-md:pt-2 md:pt-4 pb-5">
@@ -47,15 +47,15 @@ export function Footer() {
                         Team
                     </h1>
                     <h3 className="text-rose-600">
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@sharabhojha7895" passHref>Sharabh Ojha</Link> | 
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@xhaidendsouza7380" passHref>Xhaiden D&apos;Souza</Link> | 
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/bernicez21/" passHref>Bernice Zhao</Link> | 
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/keithmiquela/" passHref>Keith Miquela</Link> | 
-                        <span className="max-md:pr-2 md:pl-2 inline-block">Alex Wang</span> | 
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/arhannagavelli_/" passHref>Arhan Nagavelli</Link> | 
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/ishy_aku/" passHref>Ishaan Akula</Link> | 
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/laur.enjoy/" passHref>Lauren Fleming</Link> | 
-                        <span className="max-md:pr-2 md:pl-2 inline-block">Svaramya Ojha</span>
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@sharabhojha7895" target="_blank" passHref>Sharabh Ojha</Link> 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@xhaidendsouza7380" target="_blank" passHref>Xhaiden D&apos;Souza</Link> 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/bernicez21/" target="_blank" passHref>Bernice Zhao</Link> 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/keithmiquela/" target="_blank" passHref>Keith Miquela</Link> 
+                        <span className="max-md:pr-2 md:pl-2 inline-block">Alex Wang</span> 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/arhannagavelli_/" target="_blank" passHref>Arhan Nagavelli</Link> 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/ishy_aku/" target="_blank" passHref>Ishaan Akula</Link> 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/laur.enjoy/" target="_blank" passHref>Lauren Fleming</Link> 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@electrokidgamingtech" target="_blank" passHref>Svaramya Ojha</Link> 
                     </h3>
                 </div>
             </div>

@@ -40,13 +40,6 @@ export default function Home() {
           <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-50 to-red-100 text-rose-500 rounded-3xl shadow-lg shadow-rose-800 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Our Team</span>
         </h1>
           <div className="flex flex-row flex-wrap justify-center mx-6 mt-6 pb-24 gap-6">
-            {/** <Card name="Sharabh Ojha" role="Founder, President, and Music Director" image="sharabh.jpg" />
-          <Card name="Xhaiden D&apos;Souza" role="Vice President and Music Director" image="xhaiden.jpg" />
-          <Card name="Bernice Zhao" role="Vice President and Music Director" image="bernice.jpg" />
-          <Card name="Keith Miquela" role="Vice President and Music Director" image="keith.jpg" />
-          <Card name="Alex Wang" role="Vice President and Music Director" image="alex.jpg" />
-          <Card name="Arhan Nagavelli" role="Vice President and Music Director" image="arhan.jpg" />
-          <Card name="Ishaan Akula" role="Vice President and Music Director" image="ishaan.jpg" /> <Card name="Lauren Fleming" role="Vice President and Music Director" image="lauren.jpg" /> */}
 
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
@@ -57,7 +50,7 @@ export default function Home() {
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Sharabh is a student at High Technology High School. In his free time, he likes to sing, code, and teach.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
@@ -150,10 +143,10 @@ export default function Home() {
                 <CardDescription className="text-rose-800"><strong>Tenor/Alto</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/atharav.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Svaramya loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Svaramya is a student at Marlboro Memorial Middle School. In his free time, he likes to play video games and post on his YouTube channel</h1>
               </CardFooter>
             </Card>
         </div>
