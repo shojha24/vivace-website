@@ -19,13 +19,13 @@ export default function Home() {
 
       <div className="flex flex-col items-center justify-start min-h-screen h-128 py-2 bg-no-repeat bg-cover bg-bottom bg-[url('assets/aboutus_background.svg')]">
         <div className="absolute z-0">
-          <Lightbulb size={384} color="#fecdd3" strokeWidth={2.25} className="relative top-4 rotate-12" />
-          <Lightbulb size={384} color="#fecdd3" strokeWidth={2.25} className="absolute top-4 rotate-12 blur-md" />
+          <Lightbulb size={300} color="#fecdd3" strokeWidth={2.25} className="relative top-16 rotate-12" />
+          <Lightbulb size={300} color="#fecdd3" strokeWidth={2.25} className="absolute top-16 rotate-12 blur-md" />
         </div>
         <h1 className="px-5 max-sm:text-4xl sm:text-6xl font-bold mt-10 text-rose-400 text-center z-10">
           About Our <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-400 to-red-500 text-white rounded-3xl shadow-lg shadow-rose-200 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Team</span>
         </h1>
-        <h1 className="max-md:text-lg md:text-xl font-bold mt-5 text-rose-500 text-center md:mx-48 max-md:mx-20 z-10">
+        <h1 className="max-sm:text-md max-md:text-lg md:text-xl font-bold mt-5 text-rose-500 text-center md:mx-48 max-md:mx-20 z-10">
           Who we are, how we started, and what we&apos;ve done.
         </h1>
       </div>
