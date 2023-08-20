@@ -16,7 +16,7 @@ export default function Home() {
           An outlet for our<span className="ml-4 pt-3 pb-4 px-4 bg-gradient-to-r from-rose-400 to-red-500 text-white rounded-3xl shadow-lg shadow-rose-200 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">passion.</span>
         </h1>
         <h1 className="max-md:text-lg md:text-xl font-bold mt-5 text-rose-500 text-center md:mx-48 max-md:mx-20 z-10">
-          VIVACE is a high-school musician/a cappella collective based in Lincroft, NJ.
+          VIVACE is a high-school musician/a cappella collective based in Lincroft, NJ. We make lives better through music.
         </h1>
       </div>
 
