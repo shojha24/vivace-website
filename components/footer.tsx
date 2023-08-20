@@ -38,8 +38,8 @@ export function Footer() {
                     Pages
                 </h1>
                 <h3 className="text-rose-600">
-                    <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/" passHref>Home</Link>
-                    <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/about" passHref>About Us</Link>
+                    <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/" passHref>Home</Link> | 
+                    <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/about" passHref>About Us</Link> | 
                     <Link className="max-md:pr-2 md:pl-2 hover:text-rose-900 hover:underline" href="/shows" passHref>Shows</Link>
                 </h3>
                 <div className="max-md:pt-2 md:pt-4 pb-5">
@@ -47,14 +47,15 @@ export function Footer() {
                         Team
                     </h1>
                     <h3 className="text-rose-600">
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@sharabhojha7895" passHref>Sharabh Ojha</Link>
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@xhaidendsouza7380" passHref>Xhaiden D&apos;Souza</Link>
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/bernicez21/" passHref>Bernice Zhao</Link>
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/keithmiquela/" passHref>Keith Miquela</Link>
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/alexwangg_/" passHref>Alex Wang</Link>
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/arhannagavelli_/" passHref>Arhan Nagavelli</Link>
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/ishy_aku/" passHref>Ishaan Akula</Link>
-                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/laur.enjoy/" passHref>Lauren Fleming</Link>
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@sharabhojha7895" passHref>Sharabh Ojha</Link> | 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.youtube.com/@xhaidendsouza7380" passHref>Xhaiden D&apos;Souza</Link> | 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/bernicez21/" passHref>Bernice Zhao</Link> | 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/keithmiquela/" passHref>Keith Miquela</Link> | 
+                        <span className="max-md:pr-2 md:pl-2 inline-block">Alex Wang</span> | 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/arhannagavelli_/" passHref>Arhan Nagavelli</Link> | 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/ishy_aku/" passHref>Ishaan Akula</Link> | 
+                        <Link className="max-md:pr-2 md:pl-2 inline-block hover:text-rose-900 hover:underline" href="https://www.instagram.com/laur.enjoy/" passHref>Lauren Fleming</Link> | 
+                        <span className="max-md:pr-2 md:pl-2 inline-block">Svaramya Ojha</span>
                     </h3>
                 </div>
             </div>
