@@ -157,7 +157,10 @@ export default function Home() {
       <h1 className="text-white max-sm:text-3xl sm:text-4xl font-bold text-center z-10">
           <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-50 to-red-100 text-rose-500 rounded-3xl shadow-lg shadow-rose-800 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Where we&apos;ve been</span>
         </h1>
+
+        <div className="mx-6">
         <h1 className="w-fit mx-auto my-6 outline-dashed outline-4 outline-rose-600 text-xl p-4 text-center font-semibold text-rose-500 bg-gradient-to-b from-rose-100 to-red-200 rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">As a group or ensemble, we&apos;ve performed at:</h1>
+        </div>
 
         <div className="flex flex-row flex-wrap justify-center mx-6 mt-6 mb-6 gap-6">
           <div className="max-w-[375px] shadow-lg shadow-rose-200">
@@ -171,7 +174,9 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="mx-10">
         <h1 className="w-fit mx-auto my-6 outline-dashed outline-4 outline-rose-600 text-xl p-4 text-center font-semibold text-rose-500 bg-gradient-to-b from-rose-100 to-red-200 rounded-xl shadow-lg shadow-rose-200 transition ease-in-out delay-100 hover:scale-105 duration-300">Individually, we&apos;ve performed at:</h1>
+        </div>
 
         <div className="flex flex-row flex-wrap justify-center mx-6 mt-6 pb-20 gap-6">
           <div className="max-w-[500px] shadow-lg shadow-rose-200">
