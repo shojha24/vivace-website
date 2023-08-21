@@ -33,7 +33,7 @@ export default function Home() {
           <div className="md:col-span-1 max-md:col-span-3 row-span-1 bg-[url('assets/guitar.svg')] bg-contain max-md:bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
           </div>
 
-          <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 md:row-span-2 max-md:row-span-1 bg-[url('assets/sharabh.jpg')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
+          <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 md:row-span-2 max-md:row-span-1 bg-[url('assets/bernice_mic.jpg')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
           </div>
 
           <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-3 row-span-1 bg-[url('assets/sharabh.jpg')] bg-cover bg-center rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">

@@ -71,7 +71,7 @@ export default function Home() {
                 <CardDescription className="text-rose-800">Co-Vocal Director and <strong>Alto/Soprano</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/bernice.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/bernice.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
                 <h1 className="text-rose-700">Bernice is a senior at High Technology High School. She is passionate about psychology, social advocacy, and creative writing.</h1>
