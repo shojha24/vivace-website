@@ -50,7 +50,7 @@ export default function Home() {
                 <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Sharabh is a student at High Technology High School. In his free time, he likes to sing, code, and teach.</h1>
+                <h1 className="text-rose-700">Sharabh is a senior at High Technology High School. In his free time, he likes to sing, code, and teach.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
@@ -59,7 +59,7 @@ export default function Home() {
                 <CardDescription className="text-rose-800">Arrangement Director, Beatboxing Hopeful, and <strong>Tenor/Alto</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/xhaiden.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
                 <h1 className="text-rose-700">Xhaiden loves ice cream, long walks on the beach, and dogs.</h1>
@@ -71,10 +71,10 @@ export default function Home() {
                 <CardDescription className="text-rose-800">Co-Vocal Director and <strong>Alto/Soprano</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/bernice.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Bernice loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Bernice is a senior at High Technology High School. She is passionate about psychology, social advocacy, and creative writing.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
@@ -146,7 +146,7 @@ export default function Home() {
                 <Image src={require("../assets/atharav.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Svaramya is a student at Marlboro Memorial Middle School. In his free time, he likes to play video games and post on his YouTube channel</h1>
+                <h1 className="text-rose-700">Svaramya is a student at Marlboro Memorial Middle School. He likes to play video games and make YouTube videos.</h1>
               </CardFooter>
             </Card>
         </div>
