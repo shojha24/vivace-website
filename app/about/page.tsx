@@ -185,6 +185,15 @@ export default function Home() {
           <div className="max-w-[500px] shadow-lg shadow-rose-200">
             <Image src={require("../assets/bitterend_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
           </div>
+          <div className="max-w-[500px] shadow-lg shadow-rose-200">
+            <Image src={require("../assets/saltysbeachbar_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+          </div>
+          <div className="max-w-[500px] shadow-lg shadow-rose-200">
+            <Image src={require("../assets/baranticipation_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+          </div>
+          <div className="max-w-[500px] shadow-lg shadow-rose-200">
+            <Image src={require("../assets/bellworks_logo.png")} alt="aeiou" width="300" height="300" className="outline-dashed outline-4 outline-rose-600 rounded-xl shadow-lg transition ease-in-out delay-100 hover:scale-105"></Image>
+          </div>
         </div>
 
       </div>
