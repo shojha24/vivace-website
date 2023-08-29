@@ -115,6 +115,18 @@ export default function Home() {
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
+                <CardTitle className="text-rose-700">Svaramya Ojha</CardTitle>
+                <CardDescription className="text-rose-800"><strong>Tenor/Alto</strong></CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Image src={require("../assets/atharav.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+              </CardContent>
+              <CardFooter className="flex justify-between">
+                <h1 className="text-rose-700">Svaramya is a student at Marlboro Memorial Middle School. He likes to play video games and make YouTube videos.</h1>
+              </CardFooter>
+            </Card>
+            <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
+              <CardHeader>
                 <CardTitle className="text-rose-700">Ishaan Akula</CardTitle>
                 <CardDescription className="text-rose-800"><strong>Tenor/Baritone</strong></CardDescription>
               </CardHeader>
@@ -135,18 +147,6 @@ export default function Home() {
               </CardContent>
               <CardFooter className="flex justify-between">
                 <h1 className="text-rose-700">Lauren loves ice cream, long walks on the beach, and dogs.</h1>
-              </CardFooter>
-            </Card>
-            <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
-              <CardHeader>
-                <CardTitle className="text-rose-700">Svaramya Ojha</CardTitle>
-                <CardDescription className="text-rose-800"><strong>Tenor/Alto</strong></CardDescription>
-              </CardHeader>
-              <CardContent>
-                <Image src={require("../assets/atharav.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
-              </CardContent>
-              <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Svaramya is a student at Marlboro Memorial Middle School. He likes to play video games and make YouTube videos.</h1>
               </CardFooter>
             </Card>
         </div>
