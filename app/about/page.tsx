@@ -39,7 +39,7 @@ export default function Home() {
         <h1 className="text-white max-sm:text-3xl sm:text-4xl font-bold text-center z-10">
           <span className="pt-3 pb-4 px-4 bg-gradient-to-r from-rose-50 to-red-100 text-rose-500 rounded-3xl shadow-lg shadow-rose-800 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Our Team</span>
         </h1>
-          <div className="flex flex-row flex-wrap justify-center mx-6 mt-6 pb-24 gap-6">
+          <div className="flex items-start flex-row flex-wrap justify-center mx-6 mt-6 pb-24 gap-6">
 
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
               <CardHeader>
@@ -59,10 +59,10 @@ export default function Home() {
                 <CardDescription className="text-rose-800">Arrangement Director, Beatboxing Hopeful, and <strong>Tenor/Alto</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/xhaiden.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/xhaiden.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Xhaiden loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Xhaiden is a senior at High Technology High School. He loves science, making music, and adventuring in nature.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
@@ -83,10 +83,10 @@ export default function Home() {
                 <CardDescription className="text-rose-800">Co-Vocal Director and <strong>Bass/Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/keith.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Keith loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Keith is a senior at High Technology High School. He is a versatile musician, a STEM enthusiast, and a proud Filipino.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
@@ -95,7 +95,7 @@ export default function Home() {
                 <CardDescription className="text-rose-800">Guitarist and <strong>Tenor/Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/arhan.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
                 <h1 className="text-rose-700">Arhan loves ice cream, long walks on the beach, and dogs.</h1>
@@ -107,10 +107,10 @@ export default function Home() {
                 <CardDescription className="text-rose-800"><strong>Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/alex.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Alex loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Alex is a senior at High Technology High School. He is a creative writer in his spare time, and he is also passionate about singing and learning ancient Chinese history.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
@@ -119,10 +119,10 @@ export default function Home() {
                 <CardDescription className="text-rose-800"><strong>Tenor/Baritone</strong></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src={require("../assets/sharabh.jpg")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
+                <Image src={require("../assets/ishaan.png")} width="350" height="350" alt="IDFK" className="rounded-xl shadow-lg"></Image>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <h1 className="text-rose-700">Ishaan loves ice cream, long walks on the beach, and dogs.</h1>
+                <h1 className="text-rose-700">Ishaan is a senior at High Technology High School. He enjoys coding, chess, and mucking about with hardware in his free time.</h1>
               </CardFooter>
             </Card>
             <Card className="max-w-[375px] bg-gradient-to-r from-rose-50 to-red-100 transition ease-in-out delay-100 hover:scale-105 duration-300 rounded-xl shadow-lg">
@@ -159,7 +159,7 @@ export default function Home() {
         </h1>
 
         <div className="mx-6">
-        <h1 className="w-fit mx-auto my-6 outline-dashed outline-4 outline-rose-600 text-xl p-4 text-center font-semibold text-rose-500 bg-gradient-to-b from-rose-100 to-red-200 rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">As a group or ensemble, we&apos;ve performed at:</h1>
+        <h1 className="w-fit mx-auto my-6 outline-dashed outline-4 outline-rose-600 text-xl p-4 text-center font-semibold text-rose-500 bg-gradient-to-b from-rose-100 to-red-200 rounded-xl shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">Together, we&apos;ve performed at:</h1>
         </div>
 
         <div className="flex flex-row flex-wrap justify-center mx-6 mt-6 mb-6 gap-6">
