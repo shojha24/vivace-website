@@ -4,13 +4,14 @@ import { Music2 } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Home() {
+
   return (
     <main>
 
       <div className="flex flex-col items-center justify-start min-h-screen h-128 py-2 bg-no-repeat bg-cover bg-bottom bg-[url('assets/landingpage_background.svg')]">
         <div className="absolute z-0 p-0">
-          <Music2 size={300} color="#fecdd3" strokeWidth={2.25} className="relative top-16 rotate-12" />
-          <Music2 size={300} color="#fecdd3" strokeWidth={2.25} className="absolute top-16 rotate-12 blur-md" />
+          <Music2 size={400} color="#fecdd3" strokeWidth={2.25} className="relative top-16 rotate-12" />
+          <Music2 size={400} color="#fecdd3" strokeWidth={2.25} className="absolute top-16 rotate-12 blur-md" />
         </div>
         <h1 className="px-5 max-sm:text-4xl sm:text-6xl font-bold mt-10 text-rose-400 text-center z-10">
           An outlet for our<span className="ml-4 pt-3 pb-4 px-4 bg-gradient-to-r from-rose-400 to-red-500 text-white rounded-3xl shadow-lg shadow-rose-200 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">passion.</span>

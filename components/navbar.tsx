@@ -15,8 +15,7 @@ export function Navbar() {
             <Link href="/" legacyBehavior passHref>
                 <div id="Logo" className="flex cursor-pointer hover:brightness-90 justify-start pl-3">
                     <Image src={require("../app/assets/vivace_logo.svg")} width="25" height="30" alt="IDFK"></Image>
-                    <h1 className="text-rose-600 text-4xl mx-2 flex max-md:hidden">|</h1>
-                    <Image src={require("../app/assets/vivace_text.svg")} width="150" height="35" alt="IDFK" className="flex max-md:hidden"></Image>
+                    <h1 className="text-rose-600 text-4xl mx-2 flex max-md:hidden">|<span className="text-2xl mt-1 ml-2 font-bold">VIVACEmusic</span></h1>
                 </div>
             </Link>
             <div id="Buttons" className="flex">

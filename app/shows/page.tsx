@@ -22,8 +22,8 @@ export default function Home() {
     <main>
       <div className="flex flex-col items-center justify-start min-h-screen h-128 py-2 bg-no-repeat bg-cover bg-bottom bg-[url('assets/shows_background.svg')]">
         <div className="absolute z-0">
-          <Mic size={300} color="#fecdd3" strokeWidth={2.25} className="relative top-16 rotate-12" />
-          <Mic size={300} color="#fecdd3" strokeWidth={2.25} className="absolute top-16 rotate-12 blur-md" />
+          <Mic size={400} color="#fecdd3" strokeWidth={2.25} className="relative top-16 rotate-12" />
+          <Mic size={400} color="#fecdd3" strokeWidth={2.25} className="absolute top-16 rotate-12 blur-md" />
         </div>
         <h1 className="px-5 max-sm:text-4xl sm:text-6xl font-bold mt-10 text-rose-400 text-center z-10">
           Our <span className="my-3 pt-3 pb-4 px-4 bg-gradient-to-r from-rose-400 to-red-500 text-white rounded-3xl shadow-lg shadow-rose-200 inline-block transition ease-in-out delay-100 hover:scale-110 duration-300">Shows</span>
