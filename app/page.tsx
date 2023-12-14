@@ -54,16 +54,16 @@ export default function Home() {
         </h1>
         <div className="flex flex-row flex-wrap mx-auto gap-8">
           <Link className="mx-auto" href="/about" passHref>
-            <div className="mx-auto bg-[url('assets/OIP.jpg')] bg-cover brightness-75 grayscale hover:brightness-100 hover:grayscale-0 rounded-xl shadow-lg shadow-rose-50 transition ease-in-out delay-100 hover:scale-105 duration-300 text-white hover:text-rose-50">
+            <div className="mx-auto bg-gradient-to-r from-rose-50 to-red-100 bg-cover brightness-75 grayscale hover:brightness-100 hover:grayscale-0 rounded-xl shadow-lg shadow-rose-50 transition ease-in-out delay-100 hover:scale-105 duration-300 text-rose-500 hover:text-rose-600">
               <h1 className="text-3xl mx-10 my-8 p-20 text-center font-semibold grayscale-0">
-                <span className="pt-1 px-2 pb-2 rounded-lg bg-gradient-to-r from-rose-800 to-red-900">About Us</span>
+                <span className="pt-1 px-2 pb-2 rounded-lg">About Us</span>
               </h1>
             </div>
           </Link>
           <Link className="mx-auto" href="/shows" passHref>
-            <div className="mx-auto bg-[url('assets/R.jpg')] bg-cover brightness-75 grayscale hover:brightness-100 hover:grayscale-0 rounded-xl shadow-lg shadow-rose-50 transition ease-in-out delay-100 hover:scale-105 duration-300 text-white hover:text-rose-50">
+            <div className="mx-auto bg-gradient-to-r from-rose-50 to-red-100 bg-cover brightness-75 grayscale hover:brightness-100 hover:grayscale-0 rounded-xl shadow-lg shadow-rose-50 transition ease-in-out delay-100 hover:scale-105 duration-300 text-rose-500 hover:text-rose-600">
               <h1 className="text-3xl mx-10 my-8 p-20 text-center font-semibold grayscale-0">
-                <span className="pt-1 px-2 pb-2 rounded-lg bg-gradient-to-r from-rose-800 to-red-900">Shows</span>
+                <span className="pt-1 px-2 pb-2 rounded-lg">Shows</span>
               </h1>
             </div>
           </Link>
