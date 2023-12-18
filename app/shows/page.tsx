@@ -65,7 +65,7 @@ export default function Home() {
             </div>
             </Link>
 
-            <Link href="/about" target="_blank" rel="noreferrer" passHref>
+            <Link href="https://drive.google.com/file/d/1vo-1b0OLqs9zR1h-amByRkw5Y62qzeq_/view?usp=drive_link" target="_blank" rel="noreferrer" passHref>
             <div className="outline-dashed outline-4 outline-rose-600 md:col-span-1 max-md:col-span-2 row-span-1 rounded-xl bg-cover bg-center shadow-lg shadow-rose-800 transition ease-in-out delay-100 hover:scale-105 duration-300">
             <span className="text-rose-500 p-2 max-sm:text-xl sm:text-2xl font-bold text-center z-10 bg-gradient-to-r from-rose-50 to-red-100 min-w-full rounded-xl shadow-lg shadow-rose-800 inline-block">Classical Music Night, March 2023</span>
             </div>
